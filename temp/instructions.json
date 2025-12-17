@@ -1,0 +1,39 @@
+{
+  "file": "1.pptx",
+  "operations": [
+    {
+      "op_id": 1,
+      "action": "add_slide",
+      "layout": "Title and Content"
+    },
+    {
+      "op_id": 2,
+      "action": "set_slide_title",
+      "slide_index": 5,
+      "text": "AI-Driven Supply Chain Insights"
+    },
+    {
+      "op_id": 3,
+      "action": "insert_bullet_points",
+      "slide_index": 5,
+      "bullets": [
+        "Anomaly detection",
+        "Inventory optimization",
+        "Demand sensing"
+      ]
+    },
+    {
+      "op_id": 4,
+      "action": "replace_text",
+      "find": "FY24",
+      "replace": "FY2024",
+      "scope": "all_slides"
+    },
+    {
+      "op_id": 5,
+      "action": "change_title_font",
+      "font_name": "Calibri",
+      "font_size": 32
+    }
+  ]
+}
